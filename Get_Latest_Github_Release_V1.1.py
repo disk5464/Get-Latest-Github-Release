@@ -42,4 +42,4 @@ if currentVerson >= latestVersion:
     print("You are up to date!")
 else:
     print("There is a new version available, version " + latestVersion)
-    print("Get it here: " + repo)
+    print("Get it here: " + repo + "/" + latestVersion)
